@@ -1,0 +1,98 @@
+# 四元素 CE 物品 — 与 rpg_ores 包对应。改完后 /shiftlore reload，CE 侧建议只保留一行短 lore + Shift 提示。
+
+profiles:
+  rpg:frost_crystal:
+    short:
+      - "<!i><gray>元素材料 · 冰"
+      - "<!i><dark_gray>按住 Shift 查看详情"
+    detail:
+      - "<!i><#7DF9FF>来源"
+      - "<!i><gray>挖掘冰元素矿石（主世界 Y32~96，新区块自然生成）"
+      - "<!i><#7DF9FF>用途"
+      - "<!i><gray>基础冰元素材料，可用于熔炉再炼、交易或与 MMOItems 配方联动"
+      - "<!i><#7DF9FF>说明"
+      - "<!i><dark_gray>掉落不受时运影响；精准采集可获矿石方块"
+
+  rpg:flame_core:
+    short:
+      - "<!i><gray>元素材料 · 火"
+      - "<!i><dark_gray>按住 Shift 查看详情"
+    detail:
+      - "<!i><#FF6B35>来源"
+      - "<!i><gray>挖掘火元素矿石（主世界 Y-16~48）"
+      - "<!i><#FF6B35>用途"
+      - "<!i><gray>火元素材料，用于高级合成、燃料类玩法（可按服内经济定价）"
+      - "<!i><#FF6B35>说明"
+      - "<!i><dark_gray>需下界合金镐；时运无效"
+
+  rpg:radiance_crystal:
+    short:
+      - "<!i><gray>元素材料 · 光"
+      - "<!i><dark_gray>按住 Shift 查看详情"
+    detail:
+      - "<!i><#FFE066>来源"
+      - "<!i><gray>挖掘光元素矿石（主世界 Y-48~24）"
+      - "<!i><#FFE066>用途"
+      - "<!i><gray>光元素材料，适合作为稀有兑换物或光明系装备素材"
+      - "<!i><#FFE066>说明"
+      - "<!i><dark_gray>需下界合金镐；时运无效"
+
+  rpg:shadow_shard:
+    short:
+      - "<!i><gray>元素材料 · 暗"
+      - "<!i><dark_gray>按住 Shift 查看详情"
+    detail:
+      - "<!i><#9B59B6>来源"
+      - "<!i><gray>挖掘暗元素矿石（主世界 Y-64~16，较稀有）"
+      - "<!i><#9B59B6>用途"
+      - "<!i><gray>暗元素材料，适合终局配方、副本奖励补充"
+      - "<!i><#9B59B6>说明"
+      - "<!i><dark_gray>需下界合金镐；时运无效"
+
+  rpg:ice_ore:
+    short:
+      - "<!i><gray>元素矿石"
+      - "<!i><dark_gray>按住 Shift 查看详情"
+    detail:
+      - "<!i><#7DF9FF>掉落"
+      - "<!i><gray>霜晶 ×1（固定，不吃时运）"
+      - "<!i><#7DF9FF>挖掘"
+      - "<!i><gray>仅下界合金镐可破坏；精准采集掉落本矿石"
+      - "<!i><#7DF9FF>生成"
+      - "<!i><gray>主世界 Y32~96，每区块约 10 条矿脉（仅未探索新区块）"
+
+  rpg:fire_ore:
+    short:
+      - "<!i><gray>元素矿石"
+      - "<!i><dark_gray>按住 Shift 查看详情"
+    detail:
+      - "<!i><#FF6B35>掉落"
+      - "<!i><gray>焰心 ×1"
+      - "<!i><#FF6B35>挖掘"
+      - "<!i><gray>下界合金镐；精准采集掉矿石"
+      - "<!i><#FF6B35>生成"
+      - "<!i><gray>主世界 Y-16~48"
+
+  rpg:light_ore:
+    short:
+      - "<!i><gray>元素矿石"
+      - "<!i><dark_gray>按住 Shift 查看详情"
+    detail:
+      - "<!i><#FFE066>掉落"
+      - "<!i><gray>光辉水晶 ×1"
+      - "<!i><#FFE066>挖掘"
+      - "<!i><gray>下界合金镐；精准采集掉矿石"
+      - "<!i><#FFE066>生成"
+      - "<!i><gray>主世界 Y-48~24"
+
+  rpg:dark_ore:
+    short:
+      - "<!i><gray>元素矿石"
+      - "<!i><dark_gray>按住 Shift 查看详情"
+    detail:
+      - "<!i><#9B59B6>掉落"
+      - "<!i><gray>暗影碎片 ×1"
+      - "<!i><#9B59B6>挖掘"
+      - "<!i><gray>下界合金镐；精准采集掉矿石"
+      - "<!i><#9B59B6>生成"
+      - "<!i><gray>主世界 Y-64~16（最稀有）"

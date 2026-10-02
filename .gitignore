@@ -1,0 +1,14 @@
+.gradle/
+build/
+bin/
+out/
+run/
+*.iml
+.idea/
+.vscode/
+*.log
+.DS_Store
+Thumbs.db
+
+# Local deploy override (optional)
+local.properties

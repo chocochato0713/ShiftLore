@@ -1,0 +1,17 @@
+name: ShiftLore
+version: ${version}
+main: net.mc.shiftlore.ShiftLorePlugin
+api-version: '1.21'
+description: Expand item lore while sneaking with inventory open (client-only via ProtocolLib)
+authors: [MC]
+softdepend: [ProtocolLib, CraftEngine]
+
+commands:
+  shiftlore:
+    description: ShiftLore admin
+    permission: shiftlore.admin
+    usage: /shiftlore reload
+
+permissions:
+  shiftlore.admin:
+    default: op

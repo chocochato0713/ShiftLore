@@ -1,0 +1,11 @@
+# 仅在「打开任意容器界面 + 按住 Shift（潜行）」时，向该玩家客户端发送展开后的 lore。
+# 服务端物品本身不会被改写（需要 ProtocolLib）。
+
+settings:
+  # 打开背包/箱子等界面时，若未潜行则显示 short；潜行则 short + detail
+  require-inventory-open: true
+  # 潜行切换后延迟 tick 再发包（避免与原版潜行包乱序）
+  refresh-delay-ticks: 1
+
+# 按 CraftEngine 物品 ID 匹配（也支持 namespace:id 或 id，如 frost_crystal / rpg:frost_crystal）
+profiles: {}
