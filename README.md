@@ -56,9 +56,9 @@ profiles:
 
 - `/shiftlore reload` — 重载配置（权限 `shiftlore.admin`，默认 OP）
 
-## 与本仓库作者的其他项目
+## 示例
 
-四元素矿物示例配置见 `src/main/resources/items/rpg_ores.yml`；若与 [MC 生存服配置](https://github.com/chocochato0713) 联用，CE 侧只保留短 lore，详情由本插件负责。
+四元素矿物（CraftEngine `rpg:*`）的 `short` / `detail` 示例在 `src/main/resources/items/rpg_ores.yml`。联用时 CE 物品只保留两行短 lore，详情由本插件负责。
 
 ## 许可证
 
